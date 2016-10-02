@@ -1,3 +1,5 @@
-/node_modules
-/typings
-**/bower_components
+node_modules
+typings
+*.js
+*.js.map
+!systemjs.config.js
