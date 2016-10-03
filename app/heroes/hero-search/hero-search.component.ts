@@ -4,8 +4,8 @@ import { Router }            from '@angular/router';
 import { Observable }        from 'rxjs/Observable';
 import { Subject }           from 'rxjs/Subject';
 
-import { Hero } from './hero';
-import { HeroSearchService } from './hero-search.service';
+import { Hero } from '../hero/hero';
+import { HeroSearchService } from './services/hero-search.service';
 
 @Component({
 	moduleId: module.id,
